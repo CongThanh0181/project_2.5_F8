@@ -23,16 +23,16 @@
     <!-- header -->
     <header class="header">
         <div class="content header__content">
-            <div class="header__logo">
+            <a class="header__logo" href="#">
                 <img src="./assest/image/logo.svg" alt="Besnik.">
-            </div>
+            </a>
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">Features</a></li>
-                    <li><a href="#!">Pricing</a></li>
-                    <li><a href="#!">About</a></li>
-                    <li><a href="#!">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="header__action">
@@ -50,8 +50,8 @@
                     <h1 class="hero__left--heading">Words learner come here.</h1>
                     <p class="hero__left--desc">Build skills with courses, certificates, and get online knowledge from our <span>world-class</span> platform.</p>
                     <div class="hero__left--atc">
-                        <a href="" class="atc__btn">Get Started</a>
-                        <a href="" class="atc__btn-play">
+                        <a href="#!" class="atc__btn">Get Started</a>
+                        <a href="#!" class="atc__btn-play">
                             <img src="./assest/image/play.svg" alt="">
                         </a>
                     </div>
@@ -85,7 +85,7 @@
         </div>
 
         <!-- features -->
-        <div class="feature">
+        <div class="feature" id="Features">
             <div class="content">
                 <div class="features__top">
                     <p class="quote">FEATURES</p>
@@ -114,7 +114,7 @@
         </div>
 
         <!-- courses -->
-        <div class="courses">
+        <div class="courses" id="Pricing">
             <div class="content">
                 <div class="courses__top">
                     <p class="quote">COURSES</p>
@@ -176,21 +176,106 @@
 
         <!-- stast -->
         <div class="stast">
-            <div class="stast__item">
-                <p class="value">100+</p>
-                <p class="value-desc">Popular Courses</p>
+            <div class="content">
+                <div class="stast__list">
+                    <div class="stast__list--item">
+                        <p class="value">100+</p>
+                        <p class="value-desc">Popular Courses</p>
+                    </div>
+        
+                    <div class="stast__list--item">
+                        <p class="value">500+</p>
+                        <p class="value-desc">Skilled Trainer</p>
+                    </div>
+        
+                    <div class="stast__list--item">
+                        <p class="value">1M+</p>
+                        <p class="value-desc">Student Learning</p>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <div class="stast__item">
-                <p class="value">500+</p>
-                <p class="value-desc">Skilled Trainer</p>
+        <!-- feedback -->
+        <div class="feedback" id="About">
+            <div class="content feedback__content">
+                <div class="feedback__info">
+                    <img class="icon-union" src="./assest/image/Union.svg" alt="">
+                    <p class="feedback__infor--comment">“They are the best people. And this is the suitable platform to learn from distance.”</p>
+                    <p class="feedback__infor--author"><strong>- Ben Foakes,</strong> student.</p>
+                    <div class="feedback__info--move">
+                        <a href="#!" class="move__btn"><img src="./assest/image/move.svg" alt=""></a>
+                        <a href="#!" class="move__btn"><img src="./assest/image/move.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="feedback__avatar">
+                    <img class="feedback__avatar--item" src="./assest/image/feedback-avatar01.jpg" alt="">
+                    <img class="feedback__avatar--item" src="./assest/image/feedback-avatar02.jpg" alt="">
+                    <img class="feedback__avatar--item" src="./assest/image/feedback-avatar03.jpg" alt="">
+                    <img class="feedback__avatar--item" src="./assest/image/feedback-avatar04.jpg" alt="">
+                    <img class="feedback__avatar--item" src="./assest/image/feedback-avatar05.jpg" alt="">
+                    <img class="feedback__avatar--item" src="./assest/image/feedback-avatar06.jpg" alt="">
+                </div>
             </div>
+        </div>
 
-            <div class="stast__item">
-                <p class="value">1M+</p>
-                <p class="value-desc">Student Learning</p>
+        <!-- ATC -->
+        <div class="ATC">
+            <div class="content ATC__content">
+                <div class="ATC__info">
+                    <h2 class="sub-heading">Ready to Get Admit</h2>
+                    <p class="desc">Create your account and Boost your Career.</p>
+                </div>
+                <a href="#!" class="atc__btn">Get Started</a>
             </div>
         </div>
     </main>
+
+    <!-- footer -->
+    <footer id="Contact">
+        <div class="content">
+            <div class="content__row">
+                <div class="footer-item">
+                    <img src="./assest/image/logo.svg" alt="Besnik.">
+                </div>
+                <div class="footer-item">
+                    <p class="footer__title">Company</p>
+                    <ul>
+                        <li><a href="#!">About</a></li>
+                        <li><a href="#!">Careers</a></li>
+                        <li><a href="#!">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p class="footer__title">Community</p>
+                    <ul>
+                        <li><a href="#!">Team Plans</a></li>
+                        <li><a href="#!">Blog</a></li>
+                        <li><a href="#!">Students</a></li>
+                        <li><a href="#!">Schoolarships</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p class="footer__title">Teaching</p>
+                    <ul>
+                        <li><a href="#!">Become a teacher</a></li>
+                        <li><a href="#!">Teaching academy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <p class="footer__title">Be social</p>
+                    <ul>
+                        <li><a href="#!"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#!"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                        <li><a href="#!"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#!"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="copyright">© Copyright 2020 by Mayad Ahmed. All right reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

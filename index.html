@@ -179,17 +179,17 @@
             <div class="content">
                 <div class="stast__list">
                     <div class="stast__list--item">
-                        <p class="value">100+</p>
+                        <p class="value"><span class="count1">100</span>+</p>
                         <p class="value-desc">Popular Courses</p>
                     </div>
         
                     <div class="stast__list--item">
-                        <p class="value">500+</p>
+                        <p class="value"><span class="count2">500</span>+</p>
                         <p class="value-desc">Skilled Trainer</p>
                     </div>
         
                     <div class="stast__list--item">
-                        <p class="value">1M+</p>
+                        <p class="value"><span class="count3">1</span>M+</p>
                         <p class="value-desc">Student Learning</p>
                     </div>
                 </div>
@@ -277,5 +277,50 @@
             <p class="copyright">© Copyright 2020 by Mayad Ahmed. All right reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function countUp1() {
+        var counterElement = document.querySelector('.count1');
+        var count = 0;
+        var interval = setInterval(function() {
+            counterElement.textContent = count;
+            count = count + 10;
+            if (count > 100) {
+            // clearInterval(interval);
+            count = 0;
+            }
+        }, 100);
+        }
+
+        function countUp2() {
+        var counterElement = document.querySelector('.count2');
+        var count = 0;
+        var interval = setInterval(function() {
+            counterElement.textContent = count;
+            count = count + 10;
+            if (count > 500) {
+            
+            count = 0;
+            }
+        }, 100);
+        }
+
+        function countUp3() {
+        var counterElement = document.querySelector('.count3');
+        var count = 0;
+        var interval = setInterval(function() {
+            counterElement.textContent = count.toFixed(1);
+            count = count + 0.1;
+            if (count > 1) {
+            // clearInterval(interval);
+            count = 0;
+            }
+        }, 100);
+        }
+    
+        countUp1();
+        countUp2();
+        countUp3();
+    </script>
 </body>
 </html>
